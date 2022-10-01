@@ -1,5 +1,5 @@
 # SIGNUP
-POST http://localhost:8000/sign-up HTTP/1.1
+POST https://absurdity.herokuapp.com/sign-up HTTP/1.1
 content-type: application/json
 
 {
