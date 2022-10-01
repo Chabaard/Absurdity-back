@@ -14,7 +14,7 @@
   "scripts": {
     "resetDB": "sqitch revert -y; sqitch deploy;",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node resetDB; node ."
+    "start": "sqitch deploy; node ."
   },
   "repository": {
     "type": "git",
